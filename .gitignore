@@ -63,12 +63,14 @@ desktop.ini
 # Binary / compiled files
 # =========================
 *.exe
-*.zip
 *.tar.gz
 *.rar
 *.dll
 *.pyd
 *.lib
+
+# Zip específico grande (>100MB, excede limite GitHub)
+Material_Solucao_Reconhecer_Cones.zip
 
 # =========================
 # Large media files (exceed GitHub 100MB limit)
