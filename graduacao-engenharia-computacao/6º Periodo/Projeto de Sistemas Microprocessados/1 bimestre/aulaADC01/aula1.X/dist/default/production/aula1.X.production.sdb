@@ -1,0 +1,80 @@
+[p GLOBOPT AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"7 D:\Arquivos Usuario\Desktop\Facul\aulaADC01\aula1.X\newfile.c
+[v _ADC_inicio ADC_inicio `(v  1 e 1 0 ]
+"12
+[v _ADC_leitura ADC_leitura `(ui  1 e 2 0 ]
+"23
+[v _inicializacao inicializacao `(v  1 e 1 0 ]
+"28
+[v _main main `(v  1 e 1 0 ]
+"340 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\include\pic16f877a.h
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1325
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1499
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2578
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"28 D:\Arquivos Usuario\Desktop\Facul\aulaADC01\aula1.X\newfile.c
+[v _main main `(v  1 e 1 0 ]
+{
+"30
+[v main@aux aux `ui  1 a 2 12 ]
+"29
+[v main@leitura leitura `ui  1 a 2 10 ]
+"60
+} 0
+"23
+[v _inicializacao inicializacao `(v  1 e 1 0 ]
+{
+"27
+} 0
+"7
+[v _ADC_inicio ADC_inicio `(v  1 e 1 0 ]
+{
+"11
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.05\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"12 D:\Arquivos Usuario\Desktop\Facul\aulaADC01\aula1.X\newfile.c
+[v _ADC_leitura ADC_leitura `(ui  1 e 2 0 ]
+{
+[v ADC_leitura@canal canal `uc  1 a 1 wreg ]
+"13
+[v ADC_leitura@leitura leitura `ui  1 a 2 4 ]
+"12
+[v ADC_leitura@canal canal `uc  1 a 1 wreg ]
+"14
+[v ADC_leitura@canal canal `uc  1 a 1 6 ]
+"22
+} 0

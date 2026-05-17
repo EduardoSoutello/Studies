@@ -11,6 +11,11 @@ Alura/ComputerVision_MovementDetection/Videos/VID_20241207_115329.mp4
 # Zip grande (>100MB)
 Material_Solucao_Reconhecer_Cones.zip
 
+# Instaladores de software (>100MB, não são arquivos de estudo)
+mplabx-v4.05-windows-installer.exe
+xc8-v2.05-full-install-windows-installer.exe
+balenaEtcher-Setup-1.5.39-x64.exe
+
 # Ambientes virtuais Python (milhares de arquivos de pacotes instalados)
 # Estes não são seus arquivos de estudo — são regeneráveis com pip install
 .venv*/
