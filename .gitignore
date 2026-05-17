@@ -1,99 +1,19 @@
-# =========================
-# Python virtual environments (any name/version)
-# =========================
-.venv/
-.venv*/
-venv/
-venv*/
-env/
-ENV/
-env.bak/
-venv.bak/
+# Arquivos que excedem o limite HARD de 100MB do GitHub (push falharia)
+# -----------------------------------------------------------------------
 
-# =========================
-# Python
-# =========================
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-*.dist-info/
+# Vídeos grandes (>100MB)
+Alura/ComputerVision_MovementDetection/Videos/VID_20241208_155227.mp4
+Alura/ComputerVision_MovementDetection/Videos/20251221_044914.mp4
+Alura/ComputerVision_MovementDetection/Videos/20251212_224107.mp4
+Alura/ComputerVision_MovementDetection/Videos/20251221_045721.mp4
+Alura/ComputerVision_MovementDetection/Videos/VID_20241207_115329.mp4
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Distribution / packaging
-*.whl
-
-# =========================
-# Node.js
-# =========================
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnp/
-.pnp.js
-
-# =========================
-# IDEs & Editors
-# =========================
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
-*.swo
-*~
-
-# =========================
-# OS files
-# =========================
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# =========================
-# Binary / compiled files
-# =========================
-*.exe
-*.tar.gz
-*.rar
-*.dll
-*.pyd
-*.lib
-
-# Zip específico grande (>100MB, excede limite GitHub)
+# Zip grande (>100MB)
 Material_Solucao_Reconhecer_Cones.zip
 
-# =========================
-# Large media files (exceed GitHub 100MB limit)
-# =========================
-*.mp4
-*.avi
-*.mov
-*.mkv
-*.wmv
-*.flv
-*.webm
-*.mp3
-*.wav
-
-# =========================
-# Environment / secrets
-# =========================
-.env
-.env.local
-.env.*.local
-
-# =========================
-# Logs
-# =========================
-*.log
-logs/
+# Ambientes virtuais Python (milhares de arquivos de pacotes instalados)
+# Estes não são seus arquivos de estudo — são regeneráveis com pip install
+.venv*/
+.venv/
+venv/
+venv*/
