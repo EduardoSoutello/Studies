@@ -1,0 +1,21 @@
+/* Header / logo styles added by Copilot assistant */
+.app-header {
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 200;
+	display: flex;
+	align-items: center;
+	height: 64px;
+	padding: 0.25rem 1rem;
+	background: #111; /* dark background to match white logo */
+	color: #fff;
+	border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.logo-link { display: inline-flex; align-items: center; text-decoration: none; }
+.app-logo { height: 40px; width: auto; display: block; }
+
+@media (max-width: 480px) {
+	.app-logo { height: 32px; }
+}

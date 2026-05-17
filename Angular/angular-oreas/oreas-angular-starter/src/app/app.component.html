@@ -1,0 +1,19 @@
+<header class="sticky">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;height:64px;">
+    <div class="brand">
+      <a routerLink="/" style="display:flex;align-items:center;gap:10px">
+        <img src="assets/favicon.ico" alt="Oreas" width="24" height="24">
+        <span>Oreas</span>
+      </a>
+    </div>
+    <app-header></app-header>
+  </div>
+</header>
+
+<main class="container" style="padding:24px 0 48px 0;">
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="footer">
+  © {{ year }} Oreas. Todos os direitos reservados.
+</footer>

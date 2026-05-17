@@ -1,0 +1,3 @@
+# Requisitos do ambiente Python para ComputerVision_HandTracking
+# Gerado com pip freeze em 14/04/2026
+

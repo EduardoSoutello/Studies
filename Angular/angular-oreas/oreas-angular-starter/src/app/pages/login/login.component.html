@@ -1,0 +1,20 @@
+<div class="card" style="max-width:420px;margin:0 auto;">
+  <h1 style="margin-top:0;">Entrar</h1>
+  <form [formGroup]="form" (ngSubmit)="submit()" novalidate>
+    <div style="display:grid;gap:12px;">
+      <label>
+        <div>Email</div>
+        <input type="email" formControlName="email" placeholder="voce@exemplo.com" style="width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;">
+      </label>
+      <label>
+        <div>Senha</div>
+        <input type="password" formControlName="password" placeholder="••••••••" style="width:100%;padding:10px;border-radius:10px;border:1px solid #ddd;">
+      </label>
+      <label style="display:flex;align-items:center;gap:8px;">
+        <input type="checkbox" formControlName="remember"> Lembrar-me
+      </label>
+      <button class="btn" [disabled]="loading" type="submit">{{ loading ? 'Entrando...' : 'Entrar' }}</button>
+      <div *ngIf="error" style="color:#b91c1c;">{{ error }}</div>
+    </div>
+  </form>
+</div>

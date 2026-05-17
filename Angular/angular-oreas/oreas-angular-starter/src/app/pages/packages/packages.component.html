@@ -1,0 +1,17 @@
+<h1>Pacotes de viagem</h1>
+<p style="color:var(--muted);margin-top:-4px;">Escolha o pacote perfeito e finalize a compra.</p>
+
+<div class="grid grid-3" style="margin-top:12px;">
+  <article *ngFor="let p of list()" class="card">
+    <div style="aspect-ratio:16/9;background:#eee;border-radius:12px;margin-bottom:12px;display:flex;align-items:center;justify-content:center;">Imagem</div>
+    <h3 style="margin:0 0 4px 0;">{{ p.title }}</h3>
+    <p style="margin:0 0 12px 0;color:var(--muted);">{{ p.description }}</p>
+    <ul style="margin:0 0 12px 0;padding-left:18px;color:var(--muted);">
+      <li *ngFor="let inc of p.includes">{{ inc }}</li>
+    </ul>
+    <div style="display:flex;align-items:center;justify-content:space-between;">
+      <strong>{{ p.price | currency:'BRL':'symbol-narrow' }}</strong>
+      <button class="btn" (click)="buy(p)">Comprar</button>
+    </div>
+  </article>
+</div>

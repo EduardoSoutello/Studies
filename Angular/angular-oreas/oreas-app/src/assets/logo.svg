@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" role="img" aria-label="Oreas logo">
+  <rect width="160" height="40" rx="6" fill="#1976d2" />
+  <g fill="#fff" font-family="Segoe UI, Roboto, Arial" font-size="18">
+    <text x="12" y="25">Oreas</text>
+  </g>
+</svg>

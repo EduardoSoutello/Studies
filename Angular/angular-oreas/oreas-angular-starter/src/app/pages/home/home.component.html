@@ -1,0 +1,34 @@
+<section class="hero card" style="display:grid;grid-template-columns:1.2fr 1fr;gap:16px;align-items:center;">
+  <div>
+    <h1 style="margin:0 0 8px 0;font-size:40px;line-height:1.1;">Viaje com a <span style="color:var(--brand);">Oreas</span></h1>
+    <p style="margin:0 0 16px 0;color:var(--muted);font-size:18px;">Descubra pacotes selecionados, suporte humano e experiências inesquecíveis.</p>
+    <div style="display:flex;gap:12px;">
+      <a routerLink="/pacotes" class="btn">Ver pacotes</a>
+      <a routerLink="/login" class="btn secondary">Entrar</a>
+    </div>
+  </div>
+  <div class="card" style="min-height:180px;">
+    <strong>Sobre a Oreas</strong>
+    <p style="color:var(--muted);">Somos uma agência brasileira focada em criar jornadas sob medida. Da compra ao pós-viagem, acompanhamos cada etapa.</p>
+    <ul style="margin:0;padding-left:18px;color:var(--muted);">
+      <li>Atendimento 7 dias/semana</li>
+      <li>Cancelamento facilitado</li>
+      <li>Pagamento em até 12x</li>
+    </ul>
+  </div>
+</section>
+
+<section style="margin-top:24px;">
+  <h2 style="margin:0 0 12px 0;">Pacotes em destaque</h2>
+  <div class="grid grid-3">
+    <article *ngFor="let p of featured()" class="card">
+      <div style="aspect-ratio:16/9;background:#eee;border-radius:12px;margin-bottom:12px;display:flex;align-items:center;justify-content:center;">Imagem</div>
+      <h3 style="margin:0 0 4px 0;">{{ p.title }}</h3>
+      <p style="margin:0 0 12px 0;color:var(--muted);">{{ p.description }}</p>
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <strong>{{ p.price | currency:'BRL':'symbol-narrow' }}</strong>
+        <a [routerLink]="['/pacotes']" class="btn">Comprar</a>
+      </div>
+    </article>
+  </div>
+</section>
